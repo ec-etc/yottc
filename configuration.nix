@@ -11,10 +11,15 @@
     ];
 
   # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # boot.loader.systemd-boot.enable = true;
+  # boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.grub.enable = true;
+  boot.loader.grub.version = 2;
+  boot.loader.grub.device = "/dev/sda";
+  boot.loader.grub.configurationLimit = 42;
 
-  networking.hostName = "hostnasus"; # Define your hostname.
+
+  networking.hostName = "hostnvaio"; # Define your hostname.
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
@@ -25,6 +30,11 @@
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+#  fileSystems."/home/yottc/wd" =
+#    { device = "/dev/sdb1";
+#      fsType = "ntfs3";
+#      options = [ "rw" "uid=theUid0fYourUser"];
+#     }; 
 
   # Select internationalisation properties.
   i18n.defaultLocale = "pt_BR.UTF-8";
@@ -40,6 +50,7 @@
   services.xserver.desktopManager.gnome.enable = true;
   services.gnome.core-utilities.enable = false;
   virtualisation.docker.enable = true;
+  virtualisation.libvirtd.enable = true;
   
 
   # Configure keymap in X11
@@ -53,8 +64,8 @@
   services.printing.enable = true;
 
   # Enable sound.
-  # sound.enable = true;
-  # hardware.pulseaudio.enable = true;
+  sound.enable = true;
+  hardware.pulseaudio.enable = true;
 
   # Enable touchpad support (enabled default in most desktopManager).
   services.xserver.libinput.enable = true;
@@ -62,7 +73,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.yottc = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "docker" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "docker" "libvirtd"]; # Enable ‘sudo’ for the user.
   #   packages = with pkgs; [
   #   firefox
   #   thunderbird
@@ -83,32 +94,41 @@
     vscode
     gitFull
     pcmanfm
+    libreoffice
+    x2goclient
+    inkscape
+    quickemu
+    hdparm
+    adoptopenjdk-icedtea-web
+#    adoptopenjdk-jre-hotspot-bin-8
+#    adoptopenjdk-hotspot-bin-8
+    openjdk8
+    virt-manager
+    virt-viewer
+    qemu_kvm
+    libvirt
     
+         
   ];
   
   environment.gnome.excludePackages = (with pkgs; [
-  #  gnome-photos
     gnome-tour
-  #  evolution
-  #]) ++ (with pkgs.gnome; [
-  #  cheese
-  #  gnome-terminal
-  #  epiphany
-  #  geary
-  #  gnome-contacts
-  #  gnome-weather
-  #  simple-scan
   ]);
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
+   programs.mtr.enable = true;
+   programs.gnupg.agent = {
+     enable = true;
+     enableSSHSupport = true;  
+   };
+   
+   
   
   nixpkgs.config.allowUnfree = true;
+    programs.java = { enable = true; };
+    programs.dconf.enable = true;
+  # programs.java = { enable = true; package = pkgs.openjdk-8; };
 
   # List services that you want to enable:
   services.teamviewer.enable = true;  
@@ -121,12 +141,12 @@
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+   networking.firewall.enable = false;
 
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix). This is useful in case you
   # accidentally delete configuration.nix.
-  # system.copySystemConfiguration = true;
+   system.copySystemConfiguration = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
