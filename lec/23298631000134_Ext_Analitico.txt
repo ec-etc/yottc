@@ -1,0 +1,100 @@
+ 12329863100013412329863100013420230210010124                                                                                       
+                                                                                                                                    
+ -------------------------------------------------------------------------                                                          
+                                                                                                                                    
+ C A I X A   E C O N O M I C A   F E D E R A L                                                                                      
+                                                                                                                                    
+ FGTS - EXTRATO ANALITICO DO TRABALHADOR                                                                                            
+                                                                                                                                    
+                                    SOLICITADO EM: 09/02/2023 AS 09:15:34                                                           
+                                                                                                                                    
+ NOME DO TRABALHADOR                        NUM.CONTA CAT      TX    PAG                                                            
+ PEDRO HENRIQUE FREIRE BARBARA                  16305 01        3   1/  1                                                           
+                                                                                                                                    
+  PIS/PASEP    CART.TRAB.    UNID.TRABALHO        DTA.ADM.   SITUACAO CTA                                                           
+ 20433236498  9425048-00050                      27/12/2022   OPTANTE                                                               
+                                                                                                                                    
+ DATA DE OPCAO       OPCAO RETROAT.     DATA DE AFAST.          MATRICULA                                                           
+  27/12/2022           00/00/0000       00/00/0000 -          15710943690                                                           
+                                                                                                                                    
+ NOME DO EMPREGADOR                                  INSCRICAO EMPREGADOR                                                           
+ CND MAT ELETRICO LTDA                                  23298631000134                                                              
+                                                                                                                                    
+ COD. EMPREGADOR      BASE DA CONTA      VALOR BASE PARA FINS RESCISORIOS                                                           
+ 07183000096662            BH                                      18,46*                                                           
+                                                                                                                                    
+                                                                                                                                    
+ HISTORICO DOS LANCAMENTOS                                                                                                          
+ DATA        LANCAMENTOS                                         VALOR                                                              
+             SALDO ANTERIOR                                          0,00                                                           
+ 06/01/2023  DEPOSITO DEZEMBRO/2022                                 18,38                                                           
+ 10/02/2023  CREDITO DE JAM 0,004552                                 0,08                                                           
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+ SALDO            DEPOSITO                JAM              TOTAL                                                                    
+                     18,38*              0,08*             18,46*                                                                   
+ * VALOR EXPRESSO EM REAIS                                                                                                          
+ DATA/HORA DE GERACAO: 10/02/2023 01:01:24                         019658                                                           
+                                                    #EXTERNO.CONFIDENCIAL                                                           
+                                                                                                                                    
+ -------------------------------------------------------------------------                                                          
+                                                                                                                                    
+ C A I X A   E C O N O M I C A   F E D E R A L                                                                                      
+                                                                                                                                    
+ FGTS - EXTRATO ANALITICO DO TRABALHADOR                                                                                            
+                                                                                                                                    
+                                    SOLICITADO EM: 09/02/2023 AS 09:18:56                                                           
+                                                                                                                                    
+ NOME DO TRABALHADOR                        NUM.CONTA CAT      TX    PAG                                                            
+ PEDRO HENRIQUE FREIRE BARBARA                  16305 01        3   1/  1                                                           
+                                                                                                                                    
+  PIS/PASEP    CART.TRAB.    UNID.TRABALHO        DTA.ADM.   SITUACAO CTA                                                           
+ 20433236498  9425048-00050                      27/12/2022   OPTANTE                                                               
+                                                                                                                                    
+ DATA DE OPCAO       OPCAO RETROAT.     DATA DE AFAST.          MATRICULA                                                           
+  27/12/2022           00/00/0000       00/00/0000 -          15710943690                                                           
+                                                                                                                                    
+ NOME DO EMPREGADOR                                  INSCRICAO EMPREGADOR                                                           
+ CND MAT ELETRICO LTDA                                  23298631000134                                                              
+                                                                                                                                    
+ COD. EMPREGADOR      BASE DA CONTA      VALOR BASE PARA FINS RESCISORIOS                                                           
+ 07183000096662            BH                                      18,46*                                                           
+                                                                                                                                    
+                                                                                                                                    
+ HISTORICO DOS LANCAMENTOS                                                                                                          
+ DATA        LANCAMENTOS                                         VALOR                                                              
+             SALDO ANTERIOR                                          0,00                                                           
+ 06/01/2023  DEPOSITO DEZEMBRO/2022                                 18,38                                                           
+ 10/02/2023  CREDITO DE JAM 0,004552                                 0,08                                                           
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+ SALDO            DEPOSITO                JAM              TOTAL                                                                    
+                     18,38*              0,08*             18,46*                                                                   
+ * VALOR EXPRESSO EM REAIS                                                                                                          
+ DATA/HORA DE GERACAO: 10/02/2023 01:01:24                         019658                                                           
+                                                    #EXTERNO.CONFIDENCIAL                                                           
+ 12329863100013412329863100013400000002                                                                                             
