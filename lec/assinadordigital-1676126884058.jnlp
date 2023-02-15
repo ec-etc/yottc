@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- JNLP File -->
+
+
+
+<jnlp spec="6.0+" codebase="https://assinadoc.estaleiro.serpro.gov.br/jws">    
+    <information>
+        <title>Assinadoc JWS Demo Application</title>
+        <vendor>SERPRO</vendor>
+        <homepage href="index.html"/>
+        <description>Assinadoc JWS Demo Application</description>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.7+" java-vm-args="-esa -Xnoclassgc"/>    
+        <!--<jar href="assinadoc-jws/assinadoc-jws.jar" main="true"/>-->
+        <jar href="assinadoc-jws.jar" main="true"/>
+    </resources>
+    <application-desc main-class="serpro.assinadoc.jws.EntryPoint">
+        <argument>eyJ4c2x0IjoiUEQ5NGJXd2dkbVZ5YzJsdmJqMG5NUzR3SnlCbGJtTnZaR2x1WnowbmRYUm1MVGduUHo0TkNqeDRjMnc2YzNSNWJHVnphR1ZsZENCNGJXeHVjenA0YzJ3OUoyaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6RTVPVGt2V0ZOTUwxUnlZVzV6Wm05eWJTY2dlRzFzYm5NNlptODlKMmgwZEhBNkx5OTNkM2N1ZHpNdWIzSm5MekU1T1RrdldGTk1MMFp2Y20xaGRDY2dkbVZ5YzJsdmJqMG5NUzR3Sno0TkNqeDRjMnc2ZEdWdGNHeGhkR1VnYldGMFkyZzlKeThuUGcwS1BHaDBiV3crRFFvOFltOWtlVDROQ2p4b01UNUpibVp2Y20xaHc2ZkR0V1Z6SUdSdklFVjJaVzUwYnlCa1pTQlNaV0ZpWlhKMGRYSmhPand2YURFK0RRbzhaR2wySUhOMGVXeGxQU2RpYjNKa1pYSTZNWEI0T3lCd1lXUmthVzVuTFd4bFpuUTZNbkI0T3lCd1lXUmthVzVuTFhKcFoyaDBPakp3ZURzZ2QybGtkR2c2TVRBd0pTYytEUW84Y0Q0OGMzUnliMjVuUGtsa09qd3ZjM1J5YjI1blBpQkpSREV5TXpJNU9EWXpNVEF3TURBd01ESXdNak13TWpFeE1URTBOek00TURBd01ERThMM0ErRFFvOGFETStSVzF3Y21WbllXUnZjam9nTWpNeU9UZzJNekU4TDJnelBnMEtQQzlrYVhZK0RRbzhMMkp2WkhrK0RRbzhMMmgwYld3K0RRbzhMM2h6YkRwMFpXMXdiR0YwWlQ0TkNqd3ZlSE5zT25OMGVXeGxjMmhsWlhRK0RRbz0iLCJpZFRhZ0Fzc2luYXR1cmFHZXJhZGEiOiJhc3NpbmRvYy1zaWduYXR1cmUiLCJpZFRhZ1BhcmFBc3NpbmFyIjoiSUQxMjMyOTg2MzEwMDAwMDAyMDIzMDIxMTExNDczODAwMDAxIiwiY29tVGltZXN0YW1wIjpmYWxzZSwidGlwb0N1c3RvbWl6YWNhb1hNTCI6IkVTT0NJQUwiLCJjaGF2ZUF1dGVudGljYWNhbyI6IkNCODBCNkEwODY0QzVEQTAyQzQxRDc4Nzg5RENBMzgzREVEOEQwNTkyODRBNkY2MDFFMTlDMkYxOTJBQTI0ODciLCJ0aHVtYnByaW50IjoiMjJDRUE0NDJGQkI4QkEzOERDOTUyQTMzODM2RTU0QTBFMTNCQTRDNiIsInRpcG8iOiJYTUwiLCJkb2N1bWVudG8iOiJQRDk0Yld3Z2RtVnljMmx2Ymowbk1TNHdKeUJsYm1OdlpHbHVaejBuVlZSR0xUZ25QejQ4WlZOdlkybGhiQ0I0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTVsYzI5amFXRnNMbWR2ZGk1aWNpOXpZMmhsYldFdlpYWjBMMlYyZEZKbFlXSnlaVVYyVUdWeUwzWmZVMTh3TVY4d01WOHdNQ0krUEdWMmRGSmxZV0p5WlVWMlVHVnlJRWxrUFNKSlJERXlNekk1T0RZek1UQXdNREF3TURJd01qTXdNakV4TVRFME56TTRNREF3TURFaVBqeHBaR1ZGZG1WdWRHOCtQR2x1WkVGd2RYSmhZMkZ2UGpFOEwybHVaRUZ3ZFhKaFkyRnZQanh3WlhKQmNIVnlQakl3TWpNdE1ERThMM0JsY2tGd2RYSStQSFJ3UVcxaVBqRThMM1J3UVcxaVBqeHdjbTlqUlcxcFBqTThMM0J5YjJORmJXaytQSFpsY2xCeWIyTStNUzR3UEM5MlpYSlFjbTlqUGp3dmFXUmxSWFpsYm5SdlBqeHBaR1ZGYlhCeVpXZGhaRzl5UGp4MGNFbHVjMk0rTVR3dmRIQkpibk5qUGp4dWNrbHVjMk0rTWpNeU9UZzJNekU4TDI1eVNXNXpZejQ4TDJsa1pVVnRjSEpsWjJGa2IzSStQQzlsZG5SU1pXRmljbVZGZGxCbGNqNDhMMlZUYjJOcFlXdysiLCJlbmNvZGluZyI6IlVURi04IiwidGlwb0NlcnRpZmljYWRvIjoiQTEiLCJpZFNlc3Nhb1dlYlNvY2tldCI6IjU2ZWFlNTRmLTYyNjktNGU4Ni1hMmJkLTMxN2Y3NmE0NjQ5MSIsInVybFNlcnZpZG9yQXNzaW5hZG9jIjoiaHR0cHM6Ly9hc3NpbmFkb2MuZXN0YWxlaXJvLnNlcnByby5nb3YuYnIvc2VydmVyL3Byb2Nlc3NhclJlcXVpc2ljYW9Eb2N1bWVudG9Bc3NpbmFkbyIsInNpc3RlbWFPcmlnZW0iOiJFU29jaWFsIn0=</argument>        
+    </application-desc>
+</jnlp>
